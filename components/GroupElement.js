@@ -1,14 +1,12 @@
 import { PostsContext } from '../components/PostsContextProvider.js'
-const GroupElement = () => {
 
+const GroupElement = () => {
     // consumer to access the local stat5e
     const {
       states: {
         userposts, filter
       }
     } = React.useContext(PostsContext);
-
-    console.log(filter)
    
 // jsx to display the list of user with sort filter
   return html`

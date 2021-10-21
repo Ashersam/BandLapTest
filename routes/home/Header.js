@@ -1,4 +1,3 @@
-import Logo from '../../components/logo.js'
 import { PostsContext } from '../../components/PostsContextProvider.js';
 import UserPosts from '../../components/UserPosts.js'
 import MenuBar from './MenuBar.js'

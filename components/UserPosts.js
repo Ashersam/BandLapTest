@@ -10,15 +10,8 @@ const UserPosts = () => {
       }
     } = React.useContext(PostsContext);
 
-    console.log(filter)
 
-if(filter === 'Group(userID)'){
-  Object.entries(userposts).forEach(([key, value]) => {
-   if(value.userId=== 1){
-    console.log(value); 
-   }
-  });
-}
+
    
 // jsx to display the list of user with sort filter
   return html`
